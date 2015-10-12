@@ -1079,14 +1079,14 @@ textarea {
 #main-slider.owl-theme .owl-item {position: relative;}
 #main-slider.owl-carousel .owl-item {-webkit-backface-visibility: visible;}
 
-#main-slider.owl-theme .owl-controls {margin: 0;}
+#main-slider.owl-theme .owl-controls {margin: 0; display: none;}
 #main-slider.owl-theme .owl-controls .owl-page span,
 #main-slider.owl-theme .owl-controls .owl-buttons div {background-color: transparent;}
 #main-slider.owl-theme .owl-controls .owl-pagination {position: absolute; bottom: 20px; width: 100%;}
 
 #main-slider.owl-theme .owl-controls .owl-buttons {position: absolute; top: 50%; margin-top: -40px; width: 100%;}
 #main-slider.owl-theme .owl-controls .owl-buttons .owl-prev,
-#main-slider.owl-theme .owl-controls .owl-buttons .owl-next {
+/*#main-slider.owl-theme .owl-controls .owl-buttons .owl-next {
     position: relative;
     border-radius: 0;
     font-size: 55px;
