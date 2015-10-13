@@ -238,8 +238,10 @@ hr.page-divider.single {
   color: #ffffff;
 }
 .logo a:hover {
-  color: #2e9063;
+  /*color: #2e9063;*/
+  color: #CE7609;
 }
+
 .logo a .logo-hex {
   background-color: #2e9063;
 }
