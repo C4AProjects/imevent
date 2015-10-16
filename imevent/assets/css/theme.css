@@ -824,7 +824,7 @@ textarea {
     transition: none;
 }
 
-.logo img {width: 70px;}
+.logo img {width: 140px;}
 
 /* 2.2 - Logo hexagon icon
 /* ========================================================================== */
@@ -2279,7 +2279,10 @@ footer.post-meta .post-categories {display: block;}
 
 /* Thumbnail transition
  * -------------------------------------------------------------------------- */
-
+.thumbnail .media img{
+    width:200px;
+	height:100px;
+}
 .thumbnail .media,
 .thumbnail .media:after,
 .thumbnail .media:before,
