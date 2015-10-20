@@ -309,15 +309,15 @@ var theme = function () {
                 var mapOptions = {
                     scrollwheel: false,
                     zoom: 12,
-                    center: new google.maps.LatLng(6.433255, 3.408693) // map coordinates   40.9807648, 28.9866516
+                    center: new google.maps.LatLng(9.1310623, 7.3676998) // map coordinates   40.9807648, 28.9866516
                 };
                 map = new google.maps.Map(document.getElementById('map-canvas'),
                     mapOptions);
                 marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(6.433255, 3.408693), // marker coordinates 41.0096559,28.9755535
+                    position: new google.maps.LatLng(9.1310623, 7.3676998), // marker coordinates 41.0096559,28.9755535
                     map: map,
                     icon: image,
-                    title: 'NATIONAL OPEN UNIVERSITY OF NIGERIA!'
+                    title: 'NOUN Special Study Centre, Public Service Institute of Nigeria (PSIN) Study Centre, Kubwa Express Way, Dutsen Alhaji'
                 });
             }
             google.maps.event.addDomListener(window, 'load', initialize);
